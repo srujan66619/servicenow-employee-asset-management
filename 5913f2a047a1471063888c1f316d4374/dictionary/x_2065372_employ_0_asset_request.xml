@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="3594366447a1471063888c1f316d43e1" extends="task" label="Asset Request" max_length="40" name="x_2065372_employ_0_asset_request" type="collection">
+        <element choice="3" label="asset" max_length="255" name="asset" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mouse" sequence="3" value="mouse"/>
+                <element inactive_on_update="false" label="Mobile" sequence="4" value="mobile"/>
+                <element inactive_on_update="false" label="Monitor" sequence="1" value="monitor"/>
+                <element inactive_on_update="false" label="Headset" sequence="5" value="headset"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Keyboard" sequence="2" value="keyboard"/>
+            </choice>
+        </element>
+        <element choice="3" label="IT Status" max_length="40" name="it_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Delivered" sequence="3" value="delivered"/>
+                <element inactive_on_update="false" label="Assigne" sequence="1" value="assigne"/>
+                <element inactive_on_update="false" label="Issued" sequence="2" value="issued"/>
+            </choice>
+        </element>
+        <element label="justification" max_length="40" name="justification" type="string"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="quantity" max_length="40" name="quantity" type="integer"/>
+        <element choice="3" default="pending" label="Manager Approval" max_length="255" name="manager_approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+    </element>
+</database>

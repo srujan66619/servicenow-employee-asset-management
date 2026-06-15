@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">07e45024f54003100a22c0b3dfa151f4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-15 05:12:28</sys_created_on>
+        <sys_id>0694766447a1471063888c1f316d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Employee Asset Management" source="x_2065372_employ_0">5913f2a047a1471063888c1f316d4374</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-15 05:12:28</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
